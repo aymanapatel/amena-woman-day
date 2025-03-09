@@ -43,7 +43,7 @@ const About = () => {
                   </svg>
                 </div>
                 <p className="text-charcoal/80">
-                  <span className="font-medium text-charcoal">Resilient</span> — No matter the setbacks, you push through.
+                  <span className="font-medium text-charcoal">Resilient</span> — 💪 No matter the setbacks, you push through. 💪
                 </p>
               </TextReveal>
               
