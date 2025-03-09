@@ -27,9 +27,9 @@ const WhyProud = () => {
             <div className="relative max-w-3xl mx-auto mb-12">
               <p className="font-['Montserrat'] text-lg text-charcoal/90 leading-relaxed text-center px-8 py-4">
                 <span className="relative">
-                  Every day, I am glad to find you who loves me. 
+                  Every day, I am glad to find you who loves me. <br/>
                   <span className="text-pink-600 font-medium">I love you so much</span> for being the 
-                  <span className="text-pink-600 font-medium">best woman</span> I have ever met.
+                  <span className="text-pink-600 font-medium"> best woman</span> I have ever met.
                   <span className="absolute -bottom-1 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-pink-300 to-transparent"></span>
                 </span>
               </p>
@@ -94,7 +94,7 @@ const WhyProud = () => {
                 Your Resilience
               </h4>
               <p className="relative font-['Montserrat'] text-charcoal/90 leading-relaxed">
-                <span className="block mb-2 text-blue-700 font-medium">✨ Your Anti-fragile Journey ✨</span>
+                <span className="block mb-2 text-blue-700 font-medium">✨ Your Strength  ✨</span>
                 There is a concept called "Antifragile" by Nassim Taleb. <br/>
                 "Antifragile" describes things that not only withstand stress but actually improve and grow stronger as a result of them.
                 Every story you say makes me think how you are "anti-fragile". You might not be 100% proud of yourself, but I am. Look back at your life and see how far you have come.
