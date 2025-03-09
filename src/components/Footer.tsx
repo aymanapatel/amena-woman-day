@@ -13,7 +13,7 @@ const Footer = () => {
           
           <TextReveal delay={2}>
             <p className="text-white/80 leading-relaxed mb-10">
-              Thank you for being the AMAzEInG woman that you are.
+              Thank you for being the AMAzEiNg woman that you are.
             </p>
           </TextReveal>
           

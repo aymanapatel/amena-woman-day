@@ -22,7 +22,7 @@ const Hero = () => {
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-light leading-tight">
               To the Woman Who <br />
-              <span className="font-medium italic">Is my queen</span>&nbsp;👸&nbsp;<span className="font-medium italic">and a boss lady</span>&nbsp;👩‍💼
+              <span className="font-medium italic">Is a queen</span>&nbsp;👸&nbsp;<span className="font-medium italic">and a boss lady!</span>&nbsp;👩‍💼
             </h1>
           </TextReveal>
           

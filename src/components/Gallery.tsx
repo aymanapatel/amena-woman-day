@@ -44,7 +44,7 @@ const Gallery = () => {
     },
     {
       src: graduation,
-      alt: "My woman celebrating her graduation. She is so AMAZeiNG!",
+      alt: "My woman celebrating her graduation. She is so AMAzEiNg!",
       delay: 4,
     },
     {
