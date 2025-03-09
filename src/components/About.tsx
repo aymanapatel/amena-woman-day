@@ -2,6 +2,7 @@
 import React from 'react';
 import TextReveal from './TextReveal';
 import ImageReveal from './ImageReveal';
+import diamond from './images/diamond.png';
 
 const About = () => {
   return (
@@ -63,7 +64,7 @@ const About = () => {
           <div className="order-1 md:order-2 relative">
             <div className="aspect-[3/4] w-full max-w-md mx-auto md:ml-auto relative">
               <ImageReveal 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
+                src={diamond}
                 alt="A professional woman working" 
                 className="rounded-md overflow-hidden shadow-lg w-full h-full"
                 animation="scale-in"

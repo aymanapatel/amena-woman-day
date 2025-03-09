@@ -1,28 +1,55 @@
 import React from 'react';
 import TextReveal from './TextReveal';
 import ImageReveal from './ImageReveal';
-import temp1 from './temp1.jpeg';
+import forklift from './images/forklift.png';
+import musings from './images/musings.png';
+import blog from './images/blog.png';
+import telescope from './images/telescope.png';
+import star from './images/star.png';
+import graduation from './images/graduation.png';
+import olympiad from './images/olympiad.png';
+import suit from './images/suit.png';
 
 const Gallery = () => {
   const images = [
     {
-      src: temp1,
-      alt: "Woman working on laptop",
+      src: olympiad,
+      alt: "My woman won multiple olympiads. She is so talented!",
       delay: 1,
     },
     {
-      src: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-      alt: "Woman sitting on bed with laptop",
+      src: blog,
+      alt: "My woman has the most amazing ways of writing. She is so eloquent!",
+      delay: 1,
+    },
+    {
+      src: musings,
+      alt: "My woman is such a great poet. Maybe our writings inspite of being polar opposite were meant to use 'musings'!",
+      delay: 1,
+    },
+    {
+      src: forklift,
+      alt: "My woman doing such a heavy job. She is so strong!",
+      delay: 1,
+    },
+    {
+      src: telescope,
+      alt: "My woman learning about the stars on a terrace. She is so curious!",
       delay: 2,
     },
     {
-      src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-      alt: "Person using MacBook Pro",
+      src: star,
+      alt: "My woman explaining about the stars. She knows so much about it!",
       delay: 3,
     },
     {
-      src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      alt: "Woman in white long sleeve using laptop",
+      src: graduation,
+      alt: "My woman celebrating her graduation. She is so AMAZeiNG!",
+      delay: 4,
+    },
+    {
+      src: suit,
+      alt: "My woman looks amazing in a suit. She is such a boss lady!",
       delay: 4,
     },
   ];
@@ -41,8 +68,11 @@ const Gallery = () => {
           
           <TextReveal delay={3}>
             <p className="text-charcoal/80 leading-relaxed">
-              Each image captures a moment in your life you have described to me in a illustrated manner.
+              Each image captures a moment in your wins in life you have described to me in an illustrated manner.
             </p>
+            <span className="font-bold italic">
+              If mobile, click on image. If laptop, hover over image.
+            </span>
           </TextReveal>
         </div>
         

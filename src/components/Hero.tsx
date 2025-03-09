@@ -31,7 +31,7 @@ const Hero = () => {
             className="max-w-2xl mb-10"
           >
             <p className="text-lg text-charcoal/80 leading-relaxed">
-              This is my celebration of you, Amena, on the occasion of Women's Day. To the most important woman (after Mom) in my life
+              This is my celebration of you, Amena, on the occasion of Women's Day. <br/> To one of the two most important woman in my life
             </p>
           </TextReveal>
           
@@ -47,21 +47,34 @@ const Hero = () => {
       </div>
       
       <div className="absolute bottom-10 left-0 right-0 flex justify-center animate-bounce">
-        <svg 
-          xmlns="http://www.w3.org/2000/svg" 
-          width="24" 
-          height="24" 
-          viewBox="0 0 24 24" 
-          fill="none" 
-          stroke="currentColor" 
-          strokeWidth="2" 
-          strokeLinecap="round" 
-          strokeLinejoin="round"
-          className="opacity-50"
+        <a 
+          href="#about" 
+          onClick={(e) => {
+            e.preventDefault();
+            const element = document.getElementById('about');
+            if (element) {
+              element.scrollIntoView({
+                behavior: 'smooth'
+              });
+            }
+          }}
         >
-          <path d="M12 5v14"></path>
-          <path d="m19 12-7 7-7-7"></path>
-        </svg>
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            width="24" 
+            height="24" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            strokeWidth="2" 
+            strokeLinecap="round" 
+            strokeLinejoin="round"
+            className="opacity-50"
+          >
+            <path d="M12 5v14"></path>
+            <path d="m19 12-7 7-7-7"></path>
+          </svg>
+        </a>
       </div>
     </section>
   );
