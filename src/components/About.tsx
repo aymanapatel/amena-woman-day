@@ -2,8 +2,6 @@
 import React from 'react';
 import TextReveal from './TextReveal';
 import ImageReveal from './ImageReveal';
-import diamond from './images/diamond.png';
-
 const About = () => {
   return (
     <section id="about" className="py-20 md:py-32 px-6 bg-sand/20">
@@ -64,7 +62,7 @@ const About = () => {
           <div className="order-1 md:order-2 relative">
             <div className="aspect-[3/4] w-full max-w-md mx-auto md:ml-auto relative">
               <ImageReveal 
-                src={diamond}
+                src="https://52wqgtbctcod7mvv.public.blob.vercel-storage.com/images/diamond-wuHvCZUCIF9z5lo8GslGyXYuObB7gc.png"
                 alt="A professional woman working" 
                 className="rounded-md overflow-hidden shadow-lg w-full h-full"
                 animation="scale-in"

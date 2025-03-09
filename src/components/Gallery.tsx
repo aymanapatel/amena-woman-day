@@ -1,54 +1,47 @@
 import React from 'react';
 import TextReveal from './TextReveal';
 import ImageReveal from './ImageReveal';
-import forklift from './images/forklift.png';
-import musings from './images/musings.png';
-import blog from './images/blog.png';
-import telescope from './images/telescope.png';
-import star from './images/star.png';
-import graduation from './images/graduation.png';
-import olympiad from './images/olympiad.png';
-import suit from './images/suit.png';
+
 
 const Gallery = () => {
   const images = [
     {
-      src: olympiad,
+      src: "https://52wqgtbctcod7mvv.public.blob.vercel-storage.com/images/olympiad-XTElHG0KDDAUujOnmCUWjToBQo1Uqe.png",
       alt: "My woman won multiple olympiads. She is so talented!",
       delay: 1,
     },
     {
-      src: blog,
+      src: "https://52wqgtbctcod7mvv.public.blob.vercel-storage.com/images/blog-Yla3eC2oGtf5wU35cu4al363D3ECQA.png",
       alt: "My woman has the most amazing ways of writing. She is so eloquent!",
       delay: 1,
     },
     {
-      src: musings,
+      src: "https://52wqgtbctcod7mvv.public.blob.vercel-storage.com/images/musings-oqauTEL2UbGFIP6WhO92m9bpugFzB7.png",
       alt: "My woman is such a great poet. Maybe our writings inspite of being polar opposite were meant to use 'musings'!",
       delay: 1,
     },
     {
-      src: forklift,
+      src: "https://52wqgtbctcod7mvv.public.blob.vercel-storage.com/images/forklift-ScbkeDFj9PRfStf7Yq36ti8XCMa9WM.png",
       alt: "My woman doing such a heavy job. She is so strong!",
       delay: 1,
     },
     {
-      src: telescope,
+      src: "https://52wqgtbctcod7mvv.public.blob.vercel-storage.com/images/telescope-5Pkb5PCKpZCk1bNorn5VD9IErwY0wW.png",
       alt: "My woman learning about the stars on a terrace. She is so curious!",
       delay: 2,
     },
     {
-      src: star,
+      src: "https://52wqgtbctcod7mvv.public.blob.vercel-storage.com/images/star-iOsLIHeQ2wUkpMrPlJEtZY0wG3o8Pc.png",
       alt: "My woman explaining about the stars. She knows so much about it!",
       delay: 3,
     },
     {
-      src: graduation,
+      src: "https://52wqgtbctcod7mvv.public.blob.vercel-storage.com/images/graduation-SQr3fqD1veWvUq6cXfWRq6OCqqE7xn.png",
       alt: "My woman celebrating her graduation. She is so AMAzEiNg!",
       delay: 4,
     },
     {
-      src: suit,
+      src: "https://52wqgtbctcod7mvv.public.blob.vercel-storage.com/images/suit-Me7MlnyDjfecYD9Dt4R2pkH684UZle.png",
       alt: "My woman looks amazing in a suit. She is such a boss lady!",
       delay: 4,
     },
