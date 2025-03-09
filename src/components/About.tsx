@@ -1,7 +1,7 @@
-
 import React from 'react';
 import TextReveal from './TextReveal';
 import ImageReveal from './ImageReveal';
+
 const About = () => {
   return (
     <section id="about" className="py-20 md:py-32 px-6 bg-sand/20">
@@ -13,12 +13,27 @@ const About = () => {
             </TextReveal>
             
             <TextReveal delay={2}>
-              <h3 className="text-3xl md:text-4xl font-serif mb-6">Loving and Hardworking in Every Way</h3>
+              <h3 className="relative text-3xl md:text-4xl font-serif mb-8">
+                <span className="relative z-10 bg-gradient-to-r from-pink-700 via-purple-600 to-pink-700 bg-clip-text text-transparent">Loving and Hardworking</span>
+                <span className="relative z-10"> in </span>
+                <span className="relative z-10 bg-gradient-to-r from-pink-700 via-purple-600 to-pink-700 bg-clip-text text-transparent">Every Way</span>
+                
+                {/* Decorative elements */}
+                <span className="absolute -bottom-3 left-0 right-0 h-[2px] bg-gradient-to-r from-pink-200 via-purple-300 to-pink-200"></span>
+                <span className="absolute -left-4 top-1/2 -translate-y-1/2 w-2 h-12 bg-pink-300 rounded-full"></span>
+                <span className="absolute -top-2 left-0 w-16 h-1 bg-gradient-to-r from-pink-300 to-transparent rounded-full"></span>
+                <span className="absolute -top-1 left-16 w-2 h-2 bg-pink-400 rounded-full animate-pulse"></span>
+              </h3>
             </TextReveal>
             
             <TextReveal delay={3} className="mb-6">
-              <p className="text-charcoal/80 leading-relaxed">
-                You inspire me everyday to be better. Both in terms of hardwork and also loving your closed ones.
+              <p className="relative px-6 py-4 text-lg leading-relaxed">
+                <span className="relative z-10 font-['Dancing_Script'] text-xl md:text-2xl text-pink-800">
+                  You inspire me everyday to be better. Both in terms of hardwork and also loving your closed ones.
+                </span>
+                <span className="absolute inset-0 bg-pink-50/50 rounded-lg transform rotate-1"></span>
+                <span className="absolute top-0 left-0 w-10 h-10 bg-pink-100 rounded-full -translate-x-2 -translate-y-2 z-0"></span>
+                <span className="absolute bottom-0 right-0 w-10 h-10 bg-pink-100 rounded-full translate-x-2 translate-y-2 z-0"></span>
               </p>
             </TextReveal>
             
@@ -41,7 +56,7 @@ const About = () => {
                   </svg>
                 </div>
                 <p className="text-charcoal/80">
-                  <span className="font-medium text-charcoal">Resilient</span> — 💪 No matter the setbacks, you push through. 💪
+                  <span className="font-medium text-charcoal">Resilient</span> —  No matter the setbacks, you push through. 
                 </p>
               </TextReveal>
               

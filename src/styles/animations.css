@@ -1,0 +1,55 @@
+@keyframes bounce-up {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.bounce-up {
+  animation: bounce-up 2s ease-in-out infinite;
+}
+
+@keyframes fly-wave {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-3px) translateX(2px);
+  }
+  50% {
+    transform: translateY(-5px) translateX(0);
+  }
+  75% {
+    transform: translateY(-3px) translateX(-2px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+.flying-dove {
+  display: inline-block;
+  animation: fly-wave 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes flower-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.flower-spin {
+  animation: flower-spin 3s ease-in-out infinite;
+}

@@ -9,13 +9,33 @@ const WhyProud = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           
           <TextReveal delay={2}>
-            <h3 className="text-3xl md:text-4xl font-serif mb-6">Why I admire you Amena</h3>
+            <h3 className="relative text-3xl md:text-4xl font-serif mb-8 inline-block">
+              <span className="relative z-10 bg-gradient-to-r from-purple-700 via-pink-600 to-purple-700 bg-clip-text text-transparent font-['Dancing_Script'] text-4xl md:text-5xl">My Profound Respect & Admiration</span>
+              <span className="block text-2xl md:text-3xl mt-2 font-serif text-charcoal/90">for the Extraordinary Woman You Are, Amena</span>
+              
+              {/* Decorative elements */}
+              <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-20 h-1 bg-gradient-to-r from-transparent via-pink-400 to-transparent"></div>
+              <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-40 h-1 bg-gradient-to-r from-transparent via-pink-400 to-transparent"></div>
+              <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-1 h-full bg-gradient-to-b from-transparent via-purple-400 to-transparent rounded-full opacity-70"></div>
+              <div className="absolute -right-4 top-1/2 -translate-y-1/2 w-1 h-full bg-gradient-to-b from-transparent via-purple-400 to-transparent rounded-full opacity-70"></div>
+              <div className="absolute -top-3 -right-3 text-pink-400 opacity-80">✨</div>
+              <div className="absolute -bottom-3 -left-3 text-pink-400 opacity-80">✨</div>
+            </h3>
           </TextReveal>
           
           <TextReveal delay={3}>
-            <p className="text-charcoal/80 leading-relaxed">
-              Every day, I am glad to find you who loves me. I love you so much for being the best woman I have ever met.
-            </p>
+            <div className="relative max-w-3xl mx-auto mb-12">
+              <p className="font-['Montserrat'] text-lg text-charcoal/90 leading-relaxed text-center px-8 py-4">
+                <span className="relative">
+                  Every day, I am glad to find you who loves me. 
+                  <span className="text-pink-600 font-medium">I love you so much</span> for being the 
+                  <span className="text-pink-600 font-medium">best woman</span> I have ever met.
+                  <span className="absolute -bottom-1 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-pink-300 to-transparent"></span>
+                </span>
+              </p>
+              <div className="absolute -left-4 top-1/2 -translate-y-1/2 text-pink-400 text-xl">💝</div>
+              <div className="absolute -right-4 top-1/2 -translate-y-1/2 text-pink-400 text-xl">💝</div>
+            </div>
           </TextReveal>
         </div>
         
@@ -39,8 +59,10 @@ const WhyProud = () => {
                 </span>
                 Your Job
               </h4>
-              <p className="text-charcoal/80 leading-relaxed">
+              <p className="relative font-['Montserrat'] text-charcoal/90 leading-relaxed">
+                <span className="block mb-2 text-pink-700 font-medium">✨ Your Dedication ✨</span>
                 Some days are not easy for you. Yet you do the right thing always. Never take shortcuts and always learn everything so fast.
+                <span className="absolute -left-2 top-0 bottom-0 w-1 bg-gradient-to-b from-pink-200 via-pink-300 to-pink-200"></span>
               </p>
             </TextReveal>
           </div>
@@ -71,9 +93,12 @@ const WhyProud = () => {
                 </span>
                 Your Resilience
               </h4>
-              <p className="text-charcoal/80 leading-relaxed">
-                There is a concept called "Anti-fragile". "Antifragile" describes things that not only withstand stress but actually improve and grow stronger as a result of them.
+              <p className="relative font-['Montserrat'] text-charcoal/90 leading-relaxed">
+                <span className="block mb-2 text-blue-700 font-medium">✨ Your Anti-fragile Journey ✨</span>
+                There is a concept called "Antifragile" by Nassim Taleb. <br/>
+                "Antifragile" describes things that not only withstand stress but actually improve and grow stronger as a result of them.
                 Every story you say makes me think how you are "anti-fragile". You might not be 100% proud of yourself, but I am. Look back at your life and see how far you have come.
+                <span className="absolute -left-2 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-200 via-blue-300 to-blue-200"></span>
               </p>
             </TextReveal>
           </div>
@@ -97,8 +122,10 @@ const WhyProud = () => {
                 </span>
                 Your Smartness
               </h4>
-              <p className="text-charcoal/80 leading-relaxed">
+              <p className="relative font-['Montserrat'] text-charcoal/90 leading-relaxed">
+                <span className="block mb-2 text-emerald-700 font-medium">✨ Your Brilliance ✨</span>
                 You tell how smart I am. But you are smart too my dear. You learnt to code and made a site for me. You have got distinctions and won medals. I am in awe of that my love.
+                <span className="absolute -left-2 top-0 bottom-0 w-1 bg-gradient-to-b from-emerald-200 via-emerald-300 to-emerald-200"></span>
               </p>
             </TextReveal>
           </div>

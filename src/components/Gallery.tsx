@@ -51,21 +51,49 @@ const Gallery = () => {
     <section id="gallery" className="py-20 md:py-32 px-6 bg-sand/20">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <TextReveal>
-            <h2 className="text-sm uppercase tracking-[0.2em] text-taupe mb-3">Cherished Moments</h2>
-          </TextReveal>
           
           <TextReveal delay={2}>
-            <h3 className="text-3xl md:text-4xl font-serif mb-6">A Gallery of Illustration of your wins!</h3>
+            <h3 className="relative inline-block text-3xl md:text-4xl font-serif mb-10">
+              <span className="relative z-10">
+                <span className="bg-gradient-to-r from-amber-600 via-yellow-500 to-amber-600 bg-clip-text text-transparent">A Gallery of</span>
+                <span className="relative mx-2">
+                  <span className="relative z-10">Illustrations</span>
+                  <span className="absolute -bottom-2 left-0 right-0 h-2 bg-yellow-200/70 transform -rotate-1"></span>
+                </span>
+                <span className="bg-gradient-to-r from-amber-600 via-yellow-500 to-amber-600 bg-clip-text text-transparent">of your Victories!</span>
+              </span>
+              
+              {/* Decorative elements */}
+              <span className="absolute -top-6 -left-6 text-yellow-400 text-3xl">🏆</span>
+              <span className="absolute -top-6 -right-6 text-yellow-400 text-3xl">🏆</span>
+              <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent"></span>
+              
+              {/* Sparkle effects */}
+              <span className="absolute top-0 left-1/4 text-yellow-400 animate-pulse" style={{ animationDelay: '0.5s' }}>✨</span>
+              <span className="absolute bottom-0 right-1/4 text-yellow-400 animate-pulse">✨</span>
+            </h3>
           </TextReveal>
           
           <TextReveal delay={3}>
-            <p className="text-charcoal/80 leading-relaxed">
-              Each image captures a moment in your wins in life you have described to me in an illustrated manner.
+            <p className="font-['Montserrat'] text-lg text-charcoal/90 leading-relaxed tracking-wide max-w-2xl mx-auto mb-8 relative">
+              <span className="relative">
+                Each image captures a moment in your wins in life you have described to me in an illustrated manner.
+                <span className="absolute -bottom-1 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-amber-300 to-transparent"></span>
+              </span>
             </p>
-            <span className="font-bold italic">
-              If mobile, click on image. If laptop, hover over image.
-            </span>
+          </TextReveal>
+          
+          <TextReveal delay={3}>
+            <div className="relative inline-block py-3 px-6 mx-auto bg-gradient-to-r from-yellow-50 to-amber-50 rounded-full border border-amber-200/50 shadow-sm hover:scale-105 transition-transform">
+              <span className="font-['Montserrat'] text-sm tracking-wide text-amber-900/90 flex items-center gap-3">
+                <span className="animate-pulse">📱</span>
+                <span>If mobile, tap on image</span>
+                <span className="text-amber-300">•</span>
+                <span className="animate-pulse">💻</span>
+                <span>If laptop, hover over image</span>
+              </span>
+              <span className="absolute inset-0 rounded-full border border-amber-200/30"></span>
+            </div>
           </TextReveal>
         </div>
         
