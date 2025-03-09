@@ -39,7 +39,7 @@ const WhyProud = () => {
               <h4 className="text-xl font-serif mb-4">Your Resilience</h4>
               <p className="text-charcoal/80 leading-relaxed">
                 There is a concept called "Anti-fragile". "Antifragile" describes things that not only withstand stress but actually improve and grow stronger as a result of them.
-                Every story you say makes me think how you are "anti-fragile". You might not be 100% proud of yourself, but I am. Look back at your life and see how far you have come.
+                Every story you say makes me think how you are "anti-fragile". You might not be 100% proud of yourself, but I am. Look back at your like and see how far you have come.
               </p>
             </TextReveal>
           </div>

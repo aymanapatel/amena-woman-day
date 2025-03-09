@@ -1,9 +1,9 @@
-
 import React, { useEffect, useState } from 'react';
 import { cn } from "@/lib/utils";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   
   useEffect(() => {
     const handleScroll = () => {
@@ -17,6 +17,8 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
     <nav 
@@ -52,12 +54,42 @@ const Navbar = () => {
           <button
             type="button"
             className="flex space-x-2 bg-transparent border border-stone rounded-md p-2 hover:border-stone-500 transition-colors"
+            onClick={toggleMenu}
           >
-            <img src="/images/hamburger.svg" alt="Menu" />
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" fill="currentColor" />
+            </svg>
             <span className="text-sm uppercase tracking-wider">Menu</span>
           </button>
         </div>
       </div>
+      {isOpen && (
+        <div className="lg:hidden mt-4">
+          <div className="flex flex-col space-y-2">
+            <a 
+              href="#about" 
+              className="text-sm uppercase tracking-wider hover:text-stone transition-colors"
+              onClick={toggleMenu}
+            >
+              About Her
+            </a>
+            <a 
+              href="#proud" 
+              className="text-sm uppercase tracking-wider hover:text-stone transition-colors"
+              onClick={toggleMenu}
+            >
+              Why I'm Proud
+            </a>
+            <a 
+              href="#gallery" 
+              className="text-sm uppercase tracking-wider hover:text-stone transition-colors"
+              onClick={toggleMenu}
+            >
+              Gallery
+            </a>
+          </div>
+        </div>
+      )}
     </nav>
   );
 };
