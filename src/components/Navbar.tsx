@@ -26,7 +26,7 @@ const Navbar = () => {
       )}
     >
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-lg md:text-xl font-serif italic">To My Partner</div>
+        <div className="text-lg md:text-xl font-serif italic">To My Nightingale 🕊️</div>
         
         <div className="flex space-x-8">
           <a 

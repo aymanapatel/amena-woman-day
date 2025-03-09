@@ -10,17 +10,16 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
           <div className="order-2 md:order-1">
             <TextReveal>
-              <h2 className="text-sm uppercase tracking-[0.2em] text-taupe mb-3">About Her</h2>
+              <h2 className="text-sm tracking-[0.2em] text-taupe mb-3">What makes you an AMAzEiNg person!</h2>
             </TextReveal>
             
             <TextReveal delay={2}>
-              <h3 className="text-3xl md:text-4xl font-serif mb-6">Exceptional in Every Way</h3>
+              <h3 className="text-3xl md:text-4xl font-serif mb-6">Loving and Hardworking in Every Way</h3>
             </TextReveal>
             
             <TextReveal delay={3} className="mb-6">
               <p className="text-charcoal/80 leading-relaxed">
-                She approaches each challenge with determination and grace. Her work ethic is unmatched, 
-                and her ability to balance her professional and personal life is something I admire deeply.
+                You inspire me everyday to be better. Both in terms of hardwork and also loving your closed ones.
               </p>
             </TextReveal>
             
@@ -32,7 +31,7 @@ const About = () => {
                   </svg>
                 </div>
                 <p className="text-charcoal/80">
-                  <span className="font-medium text-charcoal">Dedicated</span> — She puts her heart into everything she does, always going above and beyond.
+                  <span className="font-medium text-rose/80">Loving</span> — You make everyone feel <span className="font-medium bg-red-500 text-white px-2 py-1 rounded-sm">loved</span> and <span className="font-medium bg-emerald-500 text-white px-2 py-1 rounded-sm">important</span>. You are everyone's <span className="font-medium bg-blue-500 text-white px-2 py-1 rounded-sm">best friend</span>. 
                 </p>
               </TextReveal>
               
@@ -43,7 +42,7 @@ const About = () => {
                   </svg>
                 </div>
                 <p className="text-charcoal/80">
-                  <span className="font-medium text-charcoal">Resilient</span> — No matter what challenges come her way, she faces them with strength and courage.
+                  <span className="font-medium text-charcoal">Resilient</span> — No matter the setbacks, you push through.
                 </p>
               </TextReveal>
               
@@ -54,8 +53,9 @@ const About = () => {
                   </svg>
                 </div>
                 <p className="text-charcoal/80">
-                  <span className="font-medium text-charcoal">Brilliant</span> — Her intelligence and insight constantly amaze me, bringing new perspectives to everything.
+                  <span className="font-medium text-charcoal">Smart</span> — You might not know <code className="font-mono rounded-sm bg-charcoal/10 px-1">class</code> vs <code className="font-mono rounded-sm bg-charcoal/10 px-1">interface</code>; but damn you teach me on the most important <code className="font-mono rounded-sm bg-charcoal/10 px-1">CLASS</code> — i.e. Life; and how it <code className="font-mono rounded-sm bg-charcoal/10 px-1">INTERFACES</code> with us humans.
                 </p>
+                
               </TextReveal>
             </div>
           </div>
@@ -72,7 +72,7 @@ const About = () => {
               <div className="absolute -bottom-6 -left-6 bg-white p-4 shadow-lg rounded-sm w-48">
                 <TextReveal delay={4} animation="fade-in">
                   <p className="text-sm italic font-serif text-charcoal">
-                    "She turns obstacles into stepping stones toward success."
+                    "She makes everyone happy everyday."
                   </p>
                 </TextReveal>
               </div>

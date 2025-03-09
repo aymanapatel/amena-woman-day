@@ -13,7 +13,7 @@ const Hero = () => {
             delay={1}
             className="mb-3"
           >
-            <p className="text-sm uppercase tracking-[0.2em] text-taupe">With Admiration and Love</p>
+            <p className="text-sm uppercase tracking-[0.2em] text-taupe">From your darling</p>
           </TextReveal>
           
           <TextReveal 
@@ -22,7 +22,7 @@ const Hero = () => {
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-light leading-tight">
               To the Woman Who <br />
-              <span className="font-medium italic">Inspires Me Daily</span>
+              <span className="font-medium italic">Is my queen</span>&nbsp;👸&nbsp;<span className="font-medium italic">and a boss lady</span>&nbsp;👩‍💼
             </h1>
           </TextReveal>
           
@@ -31,17 +31,16 @@ const Hero = () => {
             className="max-w-2xl mb-10"
           >
             <p className="text-lg text-charcoal/80 leading-relaxed">
-              A tribute to your dedication, perseverance, and the incredible strength you show every day. 
-              Words cannot express how proud I am to have you in my life.
+              This is my celebration of you, Amena, on the occasion of Women's Day. To the most important woman (after Mom) in my life
             </p>
           </TextReveal>
           
           <TextReveal delay={4}>
             <a 
               href="#about" 
-              className="inline-block px-8 py-4 bg-charcoal text-white rounded-sm hover:bg-black transition-all duration-300 shadow-sm"
+              className="inline-block px-8 py-4 bg-pink-500 text-white rounded-sm hover:bg-pink-600 transition-all duration-300 shadow-sm"
             >
-              Read More
+              Check more about how I am proud of you
             </a>
           </TextReveal>
         </div>

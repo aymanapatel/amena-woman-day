@@ -1,12 +1,12 @@
-
 import React from 'react';
 import TextReveal from './TextReveal';
 import ImageReveal from './ImageReveal';
+import temp1 from './temp1.jpeg';
 
 const Gallery = () => {
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+      src: temp1,
       alt: "Woman working on laptop",
       delay: 1,
     },
@@ -36,13 +36,12 @@ const Gallery = () => {
           </TextReveal>
           
           <TextReveal delay={2}>
-            <h3 className="text-3xl md:text-4xl font-serif mb-6">A Gallery of Inspiration</h3>
+            <h3 className="text-3xl md:text-4xl font-serif mb-6">A Gallery of Illustration of your wins!</h3>
           </TextReveal>
           
           <TextReveal delay={3}>
             <p className="text-charcoal/80 leading-relaxed">
-              Each image captures a moment of dedication, hard work, and the beautiful journey
-              of a remarkable working woman.
+              Each image captures a moment in your life you have described to me in a illustrated manner.
             </p>
           </TextReveal>
         </div>
